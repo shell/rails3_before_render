@@ -3,19 +3,19 @@ Rails3 Before Render
 
 ## Introduction
   Add a hook like before_filter to your controllers that gets executed between
-  when your action is completed and the template is rendered.  It can really
-  DRY up loading some data that is used for views (headers / layouts / etc).
-  
+when your action is completed and the template is rendered.  It can really
+DRY up loading some data that is used for views (headers / layouts / etc).
+
   Plugin was inspired by before_render by Todd Willey, which works for rails2 only. New _ActiveSupport::Callbacks_ methods were used, in analogy with ActionDispatch.
 
-  Provided methods:
-  - before_render
-  - prepend_before_render
-  - skip_before_render
+Provided methods:
+- before_render
+- prepend_before_render
+- skip_before_render
    
 ## Installation       
   
-  $ rails plugin install git://github.com/shell/rails3_before_render.git
+    $ rails plugin install git://github.com/shell/rails3_before_render.git
   
   Warning: Rails 3 only. Rails2 users can use [before_render](<https://github.com/xtoddx/before_render>) by Todd Willey.
  
