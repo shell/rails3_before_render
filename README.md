@@ -42,6 +42,13 @@ Provided methods:
        
   Method ping will be executed after your actions and before template is rendered.
 
+## Testing
+
+  After installing plugin in your app:
+  
+    $ cd vendor/plugins/rails3_before_render
+    $ rake test
+
 ## TODO
 
 ## Author
