@@ -16,7 +16,7 @@ Provided methods:
    
 ## Installation       
   
-    $ rails plugin install git://github.com/shell/rails3_before_render.git
+    gem 'rails3_before_render'
   
   Warning: Rails 3 only. Rails2 users can use [before_render](<https://github.com/xtoddx/before_render>) by Todd Willey.
  
@@ -41,13 +41,6 @@ Provided methods:
     end       
        
   Method ping will be executed after your actions and before template is rendered.
-
-## Testing
-
-  After installing plugin in your app:
-  
-    $ cd vendor/plugins/rails3_before_render
-    $ rake test
 
 ## TODO
 
