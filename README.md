@@ -1,4 +1,4 @@
-Rails3 Before Render  [![Build Status](https://secure.travis-ci.org/shell/rails3_before_render.png)](https://secure.travis-ci.org/shell/rails3_before_render.png)
+Rails3 Before Render  [![Build Status](https://secure.travis-ci.org/shell/rails3_before_render.png)](https://secure.travis-ci.org/shell/rails3_before_render.png) [![Code Climate](https://codeclimate.com/github/shell/rails3_before_render.png)](https://codeclimate.com/github/shell/rails3_before_render)
 ===========================
 
 ## Introduction
