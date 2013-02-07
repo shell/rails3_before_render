@@ -44,5 +44,9 @@ Provided methods:
 
 ## TODO
 
+- Tests should not throw runtime error(happening right now if comment one of provided aliased methods)
+
 ## Author
 Copyright (c) 2011 Vladimir Penkin, released under the MIT license
+
+Thanks to Drake Wilson (@menostos) for initiative to convert this to ruby gem.
