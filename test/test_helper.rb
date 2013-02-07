@@ -1,8 +1,10 @@
 require 'rubygems'
+
 require 'test/unit'
 require 'active_support'
-require 'ruby-debug'
 
 ENV["RAILS_ENV"] = "test"
-require File.expand_path('../../../../../config/environment', __FILE__)
-require 'rails/test_help'
+require 'action_pack'
+require 'action_controller'
+require File.expand_path('../../lib/rails3_before_render', __FILE__)
+# require 'rails/test_help'

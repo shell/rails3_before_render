@@ -1,6 +1,5 @@
 module Rails3BeforeRender
-  module BeforeRenderInstance      
-
+  module BeforeRenderInstance
     extend ActiveSupport::Concern
 
     included do
@@ -13,7 +12,8 @@ module Rails3BeforeRender
         render_without_before_render_filter(*opts, &blk)
       end
     end
-    
+
   end
 end
+
 ActionController::Base.send :include,  Rails3BeforeRender::BeforeRenderInstance
